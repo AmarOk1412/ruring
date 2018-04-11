@@ -1,0 +1,16 @@
+[package]
+name = "rori"
+version = "0.1.0"
+authors = ["Sébastien Blin <sebastien.blin@savoirfairelinux.com>"]
+
+
+[dependencies]
+dbus = "0.6.1" # requirements libdbus
+log = "*" # 0.4.1 latest tested
+env_logger = "*" # 0.5.4 latest tested
+time = "0.1"
+
+[dependencies.ncurses]
+version = "5.91.0"
+default-features = false
+features = ["wide"]
