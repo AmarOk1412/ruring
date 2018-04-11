@@ -10,3 +10,5 @@ Use it:
 4. Install ncurses and libdbus
 5. `cargo run`
 
+
+![](rsc/ruring.png)
